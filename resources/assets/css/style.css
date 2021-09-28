@@ -1,0 +1,700 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.fheader {
+  font-weight: 700;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+.fheader .right_side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fheader .right_side div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 36.5px;
+  width: 200px;
+  text-align: center;
+}
+
+.fheader .right_side div p {
+  padding-top: 5px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding-left: 5px;
+}
+
+.fheader .right_side a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid #4243a0;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-bottom: 12.5px;
+  padding-top: 12.5px;
+  padding-right: 30px;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fheader .right_side a:hover {
+  background-color: #4243a0;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fheader .logo_kz {
+  max-height: 37.5px;
+  max-width: 200px;
+}
+
+.fheader .phone {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.fheader .wa {
+  max-width: 28px;
+  max-height: 28px;
+}
+
+header {
+  background-color: #4243a0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 18px 20px 2px rgba(34, 60, 80, 0.2);
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 15px;
+}
+
+header ul li {
+  font-size: 23px;
+  font-weight: 400;
+  padding: 25px 50px 25px 50px;
+}
+
+header ul a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-top: 1px solid gray;
+  padding-bottom: 20px;
+  background-color: #4243a0;
+}
+
+footer article {
+  text-align: center;
+  zoom: 2;
+}
+
+footer a {
+  outline: none;
+  border: 0;
+  text-decoration: none;
+}
+
+footer a svg #facebook,
+footer a svg #instagram {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+footer a svg:hover #facebook,
+footer a svg:hover #instagram {
+  fill: #111;
+}
+
+footer div {
+  padding-top: 20px;
+}
+
+footer .left-side {
+  color: white;
+}
+
+footer .twit {
+  max-height: 30px;
+  max-width: 30px;
+}
+
+footer .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+footer .right-side li {
+  padding-right: 10px;
+}
+
+footer .right-side .face {
+  max-height: 30px;
+  max-width: 30px;
+}
+
+footer .right-side .inst {
+  max-height: 30px;
+  max-width: 30px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content img {
+  z-index: 1;
+}
+
+.content h2 {
+  z-index: 2;
+  top: 0;
+}
+
+.content p {
+  z-index: 2;
+  top: 0;
+}
+
+.tarif {
+  padding-top: 100px;
+}
+
+.tarif .big_text p {
+  font-size: 1.5em;
+  color: grey;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tarif .big_text h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 35px;
+}
+
+.tarif .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.tarif .boxes .card {
+  z-index: 2;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 280px;
+  height: 540px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+  padding-bottom: 50px;
+  -webkit-box-shadow: 4px 4px 20px -5px rgba(34, 60, 80, 0.41);
+  box-shadow: 4px 4px 20px -5px rgba(34, 60, 80, 0.41);
+}
+
+.tarif .boxes .card h3 {
+  font-size: 2em;
+}
+
+.tarif .boxes .card span {
+  font-size: 18px;
+}
+
+.tarif .boxes .card p {
+  color: grey;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.tarif .boxes .card h4 {
+  padding-top: 20px;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.tarif .boxes .card .link {
+  margin-top: 50px;
+}
+
+.tarif .boxes .card .link a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #4243a0;
+  border-radius: 20px;
+  background-color: #4243a0;
+  padding: 10px;
+}
+
+.second_block {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 200px;
+}
+
+.static_table td {
+  border: 1px solid #9e9c9c;
+  background-color: #e1e7eb;
+  padding: 5px;
+}
+
+.static_table td img {
+  max-width: 25px;
+  max-height: 25px;
+  padding: 10px;
+}
+
+.link_table td {
+  padding: 20px;
+  border: 1px solid #9e9c9c;
+  background-color: #e1e7eb;
+}
+
+.link_table td a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #4243a0;
+  border-radius: 20px;
+  background-color: #4243a0;
+  padding: 10px;
+}
+
+.gif_img {
+  position: absolute;
+  max-width: 110px;
+  max-height: 110px;
+  padding-left: 15px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  top: 56%;
+  right: 38%;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 150px;
+}
+
+.table_title {
+  text-align: center;
+}
+
+.table_title td {
+  padding-bottom: 15px;
+}
+
+.table_title td p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main_content {
+  padding-bottom: 300px;
+  margin: 0px;
+  text-align: center;
+  padding-top: 33vh;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 100;
+  overflow: hidden;
+  -webkit-animation: bg 5s linear infinite;
+          animation: bg 5s linear infinite;
+}
+
+.dropping-texts {
+  display: inline-block;
+  width: 180px;
+  text-align: left;
+  height: 36px;
+  vertical-align: -2px;
+}
+
+.dropping-texts > div {
+  font-size: 0px;
+  opacity: 0;
+  margin-left: -30px;
+  position: absolute;
+  font-weight: 300;
+  -webkit-box-shadow: 0px 60px 25px -20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 60px 25px -20px rgba(0, 0, 0, 0.5);
+}
+
+.dropping-texts > div:nth-child(1) {
+  -webkit-animation: roll 5s linear infinite 0s;
+          animation: roll 5s linear infinite 0s;
+}
+
+.dropping-texts > div:nth-child(2) {
+  -webkit-animation: roll 5s linear infinite 1s;
+          animation: roll 5s linear infinite 1s;
+}
+
+.dropping-texts > div:nth-child(3) {
+  -webkit-animation: roll 5s linear infinite 2s;
+          animation: roll 5s linear infinite 2s;
+}
+
+.dropping-texts > div:nth-child(4) {
+  -webkit-animation: roll2 5s linear infinite 3s;
+          animation: roll2 5s linear infinite 3s;
+}
+
+@-webkit-keyframes roll {
+  0% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  3% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  5% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  20% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  27% {
+    font-size: 0px;
+    opacity: 0.5;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  100% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+
+@keyframes roll {
+  0% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  3% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  5% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  20% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  27% {
+    font-size: 0px;
+    opacity: 0.5;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  100% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+
+@-webkit-keyframes roll2 {
+  0% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  3% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  5% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  30% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  37% {
+    font-size: inherit;
+    opacity: 0;
+    margin-left: -1000px;
+    margin-top: -800px;
+  }
+  100% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+
+@keyframes roll2 {
+  0% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  3% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  5% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  30% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  37% {
+    font-size: inherit;
+    opacity: 0;
+    margin-left: -1000px;
+    margin-top: -800px;
+  }
+  100% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+
+@-webkit-keyframes bg {
+  0% {
+    background: #F44336;
+  }
+  3% {
+    background: #F44336;
+  }
+  20% {
+    background: #F44336;
+  }
+  23% {
+    background: #F44336;
+  }
+  40% {
+    background: #F44336;
+  }
+  43% {
+    background: #F44336;
+  }
+  60% {
+    background: #F44336;
+  }
+  63% {
+    background: #F44336;
+  }
+  80% {
+    background: #F44336;
+  }
+  83% {
+    background: #F44336;
+  }
+  100% {
+    background: #F44336;
+  }
+}
+
+@keyframes bg {
+  0% {
+    background: #F44336;
+  }
+  3% {
+    background: #F44336;
+  }
+  20% {
+    background: #F44336;
+  }
+  23% {
+    background: #F44336;
+  }
+  40% {
+    background: #F44336;
+  }
+  43% {
+    background: #F44336;
+  }
+  60% {
+    background: #F44336;
+  }
+  63% {
+    background: #F44336;
+  }
+  80% {
+    background: #F44336;
+  }
+  83% {
+    background: #F44336;
+  }
+  100% {
+    background: #F44336;
+  }
+}
+
+.header_fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  -webkit-animation-name: show_header;
+          animation-name: show_header;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  opacity: 1;
+  z-index: 99;
+}
+
+@-webkit-keyframes show_header {
+  0% {
+    opacity: 0;
+    top: -70px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@keyframes show_header {
+  0% {
+    opacity: 0;
+    top: -70px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
