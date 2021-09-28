@@ -10,8 +10,8 @@
 
 <body>
     <?php require_once "../../../includes/moduls/basic/fheader.php"                ?>
-    <section class="container " style="background-color: rgb(233, 233, 233);">
-
+    <section class="container wrapper" style="background-color: rgb(233, 233, 233);">
+    
         <?php require_once "../../../includes/moduls/basic/header.php"                ?>
         <div class="contacts">
             <div>
@@ -45,7 +45,7 @@
 
         <?php require_once "../../../includes/moduls/basic/footer.php"                ?>
     </section>
-    
+    <?php require_once "popup.php"; ?>
 </body>
 
 </html>

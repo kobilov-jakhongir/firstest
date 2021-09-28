@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <section class="container">
+    <section class="container wrapper">
         <?php require_once "includes/moduls/basic/fheader.php"  ?>
         <?php require_once "includes/moduls/basic/header.php" ?>
 
@@ -26,8 +26,18 @@
 
 
         <?php require_once "includes/moduls/basic/footer.php" ?>
+        
     </section>
-    
+
+
+
+
+
+
+
+
+
+    <?php require_once "includes/models/basic/popup.php"; ?>
 </body>
 
 </html>

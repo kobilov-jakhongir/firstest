@@ -11,7 +11,7 @@
     <?php  require_once "../../../includes/moduls/basic/fheader.php";          ?>
     <?php  require_once "../../../includes/moduls/basic/header.php";          ?>
 
-<div class="content">
+<div class="content wrapper">
     <div class="tarif">
                 <div class="big_text">
                     <h1>Выберите подходящий тариф</h1>
@@ -128,10 +128,10 @@
 
         </div>
 
-
+        <?php require_once "popup.php"; ?>
 
 
     <?php  require_once "../../../includes/moduls/basic/footer.php";          ?>
-  
+    
 </body>
 </html>
